@@ -39,7 +39,7 @@ _And, the most important, Julia lets you learn and grow individually!_ [_(Alan E
 The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl)) notebooks.
 You can:
 * view the notebooks using the [IPython notebook viewer](http://nbviewer.ipython.org/),
-* download the notebooks from the `src/` directory and execute them on your computer (after installing the necessary packages as described in [Installation](src/Installation.ipynb), or
+* download the notebooks from the `src/` directory and execute them on your computer (after installing the necessary packages as described in [Installation](http://nbviewer.ipython.org/url/github.mit.edu/slapnica/Julia-Course/src/Installation.ipynb), or
 * execute the notebooks in Amazon Cloud using [JuliaBox](https://juliabox.org/).
 
 
