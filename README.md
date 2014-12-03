@@ -5,10 +5,10 @@ Julia-Course
 
 ##  Welcome to the wonderful world of 21st+  century computation!
 
-To understand why to learn and use and get a quick idea what it is all about, please read the section
+To understand why to learn and use __Julia__, and to get a quick idea what is it all about, please read the section
 [Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia).
 
-To understand the concepts behind the creation of the course, read the [Manifest](src/Manifest.ipynb).
+To understand the concepts behind the creation of the course, read the [Manifest](Manifest.ipynb).
 
 ### Julia features
 
@@ -42,7 +42,6 @@ To understand the concepts behind the creation of the course, read the [Manifest
 
 The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl)) notebooks. You can access all course material in three ways. You can:
 * view the notebooks using the [IPython notebook viewer](http://nbviewer.ipython.org/),
-<<<<<<< HEAD
 
     > [view the notebooks](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/)
 * download the notebooks from the `src/` directory and execute them on your computer, as follows
@@ -62,11 +61,7 @@ and the notebooks will be located in the directiory `Julia-Course/src`, or
     * press downarrow to synchronize the repository
     * go to `IJulia` tab
 
-You now have `Julia-Course` folder listed. The lectures and problems sets are in the `src/` directory. 
-=======
-* download the notebooks from the `src/` directory and execute them on your computer (after installing the necessary packages as described in [Installation](http://nbviewer.ipython.org/url/github.mit.edu/slapnica/Julia-Course/tree/master/src/Installation.ipynb), or
-* execute the notebooks in Amazon Cloud using [JuliaBox](https://juliabox.org/).
->>>>>>> 2c55d4b418f6435b4826f8c7e810a686a078a661
+You now have `Julia-Course` folder listed. The lectures and problems sets are in the `src/` directory.
 
 
 In all three cases, the graphical interface is simply your web browser.
@@ -75,4 +70,4 @@ The problem set notebooks are automatically graded.
 
 ### Credits
 
-The course is based upon work of many, credits will be given along the way. The course was started during Ivan Slapnicar's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
+The course is based upon work of many, particular credits will be given along the way. The course was started during Ivan Slapnicar's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
