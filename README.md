@@ -6,7 +6,7 @@ Julia-Course
 To understand why to learn and use and get a quick idea what it is all about, please read the section 
 [Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia).
 
-To understand the concepts behind the creation of the course, read the [Manifest](Manifest.ipynb).
+To understand the concepts behind the creation of the course, read the [Manifest](src/Manifest.ipynb).
 
 ### Julia features
 
@@ -39,7 +39,7 @@ _And, the most important, Julia lets you learn and grow individually!_ [_(Alan E
 The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl)) notebooks.
 You can:
 * view the notebooks using the [IPython notebook viewer](http://nbviewer.ipython.org/),
-* download the notebooks from the `src/` directory and execute them on your computer (after installing the necessary packages as described in [Installation](Installation.ipynb), or
+* download the notebooks from the `src/` directory and execute them on your computer (after installing the necessary packages as described in [Installation](src/Installation.ipynb), or
 * execute the notebooks in Amazon Cloud using [JuliaBox](https://juliabox.org/).
 
 
