@@ -36,7 +36,7 @@ _And, the most important, Julia lets you learn and grow individually!_ [_(Alan E
 
 ### Technology
 
-The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl) notebooks.
+The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl)) notebooks.
 The notebooks can be:
 * viewed using the [IPython notebook viewer](http://nbviewer.ipython.org/),
 * downloaded an executed on your computer (after installing the necessary packages) as described in [Installation](Installation.ipynb), or
