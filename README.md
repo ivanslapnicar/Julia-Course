@@ -5,10 +5,12 @@ Julia-Course
 
 ##  Welcome to the wonderful world of 21st+  century computation!
 
-To understand why to learn and use __Julia__, and to get a quick idea what is it all about, please read the section
-[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia).
+To understand why to learn and use __Julia__, and to get an idea what is it all about, read the section
+[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia) and Sectiond 1 and 2 in [Julia: A fresh approach to numerical computing](http://arxiv.org/pdf/1411.1607v2.pdf).
 
-To understand the concepts behind the creation of the course, read the [Manifest](Manifest.ipynb).
+Recommended resurces for learning Julia can be found at the [Julia Learning Page](http://julialang.org/learning/).
+
+To understand the concepts behind the creation of the course, read the [Manifest](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/1 Manifest.ipynb).
 
 ### Julia features
 
@@ -45,7 +47,7 @@ The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](ht
 
     > [view the notebooks](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/)
 * download the notebooks from the `src/` directory and execute them on your computer, as follows
-    * install the necessary packages as described in [Installation](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/Installation.ipynb),
+    * install the necessary packages as described in [Installation](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/2 Installation.ipynb),
     * run the command
     ```
 git clone https://github.mit.edu/slapnica/Julia-Course
