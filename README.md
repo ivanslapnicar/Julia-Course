@@ -3,10 +3,10 @@ Julia-Course
 
 ## Disclaimer - This is work in progress!!
 
-##  Welcome to the wonderful world of 21st+  century computation!
+##  Welcome to the 21st+  century computation!
 
 To understand why to learn and use __Julia__, and to get an idea what is it all about, read the section
-[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia) and Sectiond 1 and 2 in [Julia: A fresh approach to numerical computing](http://arxiv.org/pdf/1411.1607v2.pdf).
+[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia) and Sections 1 and 2 in [Julia: A fresh approach to numerical computing](http://arxiv.org/pdf/1411.1607v2.pdf).
 
 Recommended resurces for learning Julia can be found at the [Julia Learning Page](http://julialang.org/learning/).
 
