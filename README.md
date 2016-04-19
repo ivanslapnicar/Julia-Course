@@ -56,7 +56,7 @@ The notebooks can be used in three ways:
 
 1. Browsing the notebooks with
 [Jupyter notebook viewer](http://nbviewer.jupyter.org/) ->
-[browse the notebooks](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
+[browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
 
 2. Cloning the notebooks to your computer with the command (in Linux)
 
@@ -83,7 +83,7 @@ __Git Clone URL__ box
   * press down arrow to synchronize the repository
   * go to  __IJulia__
 
-  The directory `GIAN-NLA-Course` is now listed. The notebooks are
+  The directory `Julia-Course` is now listed. The notebooks are
   located in the directory `src/`.
 
 ### Credits
