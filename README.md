@@ -14,7 +14,7 @@ Recommended resurces for learning Julia can be found at the
 [Julia Learning Page](http://julialang.org/learning/).
 
 To understand the author's concepts behind the creation of the course,
-read the [Manifest](SRC/Manifest.md).
+read the [Manifest](src/Manifest.md).
 
 ## Julia's Features
 
