@@ -1,75 +1,92 @@
-Julia-Course
-============
+# Julia-Course
 
-## Disclaimer - This is work in progress!!
+---
 
-##  Welcome to the 21st+  century computation!
+### Welcome to the 21st+  century computation!
 
-To understand why to learn and use __Julia__, and to get an idea what is it all about, read the section
-[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia) and Sections 1 and 2 in [Julia: A fresh approach to numerical computing](http://arxiv.org/pdf/1411.1607v2.pdf).
+To understand why to learn and use __Julia__, and to get an idea what is
+it all about, read the section
+[Why Julia (Julia for Numerical Computation in MIT Courses)](https://github.com/stevengj/julia-mit/blob/master/README.md#why-julia)
+and Sections 1 and 2 in [Julia: A fresh approach to numerical
+computing](http://arxiv.org/pdf/1411.1607v2.pdf).
 
-Recommended resurces for learning Julia can be found at the [Julia Learning Page](http://julialang.org/learning/).
+Recommended resurces for learning Julia can be found at the
+[Julia Learning Page](http://julialang.org/learning/).
 
-To understand the concepts behind the creation of the course, read the [Manifest](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/1 Manifest.ipynb).
+To understand the author's concepts behind the creation of the course,
+read the [Manifest](SRC/Manifest.md).
 
-### Julia features
+## Julia's Features
 
-* Julia is _fast_
-* Julia is _open_
-* Programs are easy to profile
-* It is easy to construct and use _types_
-* _Mutliple dispatch_
-* Operators and function can be _overloaded_
-* It is easy to use _multidimensional arrays_
-* Using packages
-* Writing your packages (on [github](https://github.com))
-* Julia has many plotting environments
-* Interfacing to other languages is easy
-* Writing interfaces to other software packages (like [LAPACK](http://www.netlib.org/lapack)) is easy
-* Julia can be used without installing it ([JuliaBox](http://juliabox.org))
-* In Julia you can use the [python's](https://www.python.org/) strength, like [IPython notebook](http://ipython.org/) or symbolic computing from [sympy](http://sympy.org/en/index.html)
-* Interactivity is simple - [@manipulate](https://github.com/JuliaLang/Interact.jl)
-* Web accesss is easy
-* Manipulating big data is easy ([HDF5](http://www.hdfgroup.org/HDF5/))
-* Julia is great to use in [teaching](http://julialang.org/teaching/) and [grading](https://github.com/jupyter/nbgrader)
+* fast
+* open
+* profiling
+* types
+* mutliple dispatch (polymorphism)
+* operator and function overloading
+* multidimensional arrays
+* packages
+* writing your packages on [github](https://github.com)
+* many plotting environments
+* interfaces to other languages
+* interfaces to software packages (like [LAPACK](http://www.netlib.org/lapack))
+* can be used without installing it at [JuliaBox](http://juliabox.org)
+* [Jupyter](http://jupyter.org) notebooks
+* symbolic computation with [sympy](http://sympy.org/en/index.html)
+* interactivity with [@manipulate](https://github.com/JuliaLang/Interact.jl)
+* web accesss
+* handling big data with ([HDF5](http://www.hdfgroup.org/HDF5/))
+* great to use in [teaching](http://julialang.org/teaching/) and research
 
-### What will you learn
-> All of the above and more!
+## What Will You Learn
 
-> At the beginning of each lecture, there is a list of competences attained by the lecture.
+Some of the above.
 
-> _And, the most important, Julia lets you learn and grow individually!_ [_(Alan Edelman)_](http://www-math.mit.edu/~edelman/index.php)
+At the beginning of each lecture, there is a list of competences attained by the lecture.
 
-### Using the course
+And, the most important, Julia lets you learn and grow individually! [_(Alan Edelman)_](http://www-math.mit.edu/~edelman/index.php)
 
-The course is written exclusively as [IPython](http://ipython.org/) ([IJulia](https://github.com/JuliaLang/IJulia.jl)) notebooks. You can access all course material in three ways. You can:
-* view the notebooks using the [IPython notebook viewer](http://nbviewer.ipython.org/),
+## Using the Course
 
-    > [view the notebooks](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/)
-* download the notebooks from the `src/` directory and execute them on your computer, as follows
-    * install the necessary packages as described in [Installation](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/blob/master/src/2 Installation.ipynb),
-    * run the command
-    ```
-git clone https://github.mit.edu/slapnica/Julia-Course
-```
-and the notebooks will be located in the directiory `Julia-Course/src`, or
-* execute the notebooks in Amazon Cloud using [JuliaBox](https://juliabox.org/):
-    * go to  https://juliabox.org and register
-    * go to `Sync` tab
-    * paste `https://github.com/ivanslapnicar/Julia-Course` into __Git Clone URL__ box
-    * check that __Branch__ is set to _master_ and (this should be done automatically)
-    * check that __JuliaBox Folder__ is set to _Julia-Course_ (you will need to edit this yourself)
-    * press __+__ to add the repository
-    * press downarrow to synchronize the repository
-    * go to `IJulia` tab
+Course materials are using [Julia](http://julialang.org/) programming
+language and are presented as [Jupyter](http://jupyter.org/) notebooks.
+The naming scheme of the notebooks is the following:
 
-You now have `Julia-Course` folder listed. The lectures and problems sets are in the `src/` directory.
+The notebooks can be used in three ways:
 
+1. Browsing the notebooks with
+[Jupyter notebook viewer](http://nbviewer.jupyter.org/) ->
+[browse the notebooks](http://nbviewer.ipython.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
 
-In all three cases, the graphical interface is simply your web browser.
+2. Cloning the notebooks to your computer with the command (in Linux)
 
-The problem set notebooks are automatically graded.
+    `git clone https://github.com/ivanslapnicar/Julia-Course`
+
+    For Windows, you can install the
+[GitHub Desktop](https://desktop.github.com/)
+and use it to clone the repository.
+
+  The notebooks are now located in the directory `Julia-Course/src/` and
+can be used interactively  - you need to install [Julia](http://julialang.org/)
+and [Jupyter](http://jupyter.org/) as described in the notebook
+[00 Installing and Running Julia](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/00 Installing and Running Julia.ipynb).
+
+3. Executing the notebooks on [JuliaBox](https://juliabox.org/):
+
+  * go to https://juliabox.org and sign in
+  * go to __Sync__
+  * paste the address `https://github.com/ivanslapnicar/Julia-Course` into
+__Git Clone URL__ box
+  * check that the __Branch__ is set to _master_
+  * chack that  __JuliaBox Folder__ is set to _Julia-Course_
+  * press _+_ to add the repository
+  * press down arrow to synchronize the repository
+  * go to  __IJulia__
+
+  The directory `GIAN-NLA-Course` is now listed. The notebooks are
+  located in the directory `src/`.
 
 ### Credits
 
-The course is based upon work of many, particular credits will be given along the way. The course was started during Ivan Slapnicar's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
+The course is based upon work of many, particular credits are given along the way. The course was started during author's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
+This version was developed for [GIAN](http://www.gian.iitkgp.ac.in/) course [_Modern Applications of Numerical Linear Algebra Methods_](https://github.com/ivanslapnicar/GIAN-NLA-Course).
