@@ -78,7 +78,7 @@ and [Jupyter](http://jupyter.org/) as described in the notebook
   * paste the address `https://github.com/ivanslapnicar/Julia-Course` into
 __Git Clone URL__ box
   * check that the __Branch__ is set to _master_
-  * chack that  __JuliaBox Folder__ is set to _Julia-Course_
+  * check that  __JuliaBox Folder__ is set to _Julia-Course_
   * press _+_ to add the repository
   * press down arrow to synchronize the repository
   * go to  __IJulia__
