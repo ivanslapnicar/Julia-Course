@@ -1,8 +1,10 @@
 # Julia-Course
 
+[Browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
+
 ---
 
-### Welcome to the 21st+  century computation!
+__Welcome to the 21st+  century computation!__
 
 To understand why to learn and use __Julia__, and to get an idea what is
 it all about, read the section
