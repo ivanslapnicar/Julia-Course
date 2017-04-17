@@ -2,6 +2,8 @@
 
 [Browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
 
+The notebooks have been updated to use the current Julia kernel Version 0.5.1.
+
 ---
 
 __Welcome to the 21st+  century computation!__
