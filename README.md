@@ -93,4 +93,4 @@ __Git Clone URL__ box
 ### Credits
 
 The course is based upon work of many, particular credits are given along the way. The course was started during author's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
-This version was developed for [GIAN](http://www.gian.iitkgp.ac.in/) course [_Modern Applications of Numerical Linear Algebra Methods_](https://github.com/ivanslapnicar/GIAN-NLA-Course). The Course is used in tutorials at the SoftCOM conferences [2015](http://marjan.fesb.hr/SoftCOM/2015/), [2016](http://marjan.fesb.hr/SoftCOM/2016/) and [2017](http://softcom2017.fesb.unist.hr/).
+This version was developed for [GIAN](http://www.gian.iitkgp.ac.in/) course [_Modern Applications of Numerical Linear Algebra Methods_](https://github.com/ivanslapnicar/GIAN-NLA-Course). The material is used in Tutorials at the SoftCOM conferences [2015](http://marjan.fesb.hr/SoftCOM/2015/), [2016](http://marjan.fesb.hr/SoftCOM/2016/) and [2017](http://softcom2017.fesb.unist.hr/).
