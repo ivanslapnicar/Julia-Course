@@ -2,7 +2,7 @@
 
 [Browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
 
-The notebooks have been updated to use the current Julia kernel Version 0.6.0.
+The notebooks have been updated to use the current Julia kernel Version 0.6.2.
 
 ---
 
@@ -64,7 +64,7 @@ The notebooks can be used in three ways:
 
 2. Cloning the notebooks to your computer with the command (in Linux)
 
-    `git clone https://github.com/ivanslapnicar/Julia-Course`
+    `git clone git@github.com:ivanslapnicar/Julia-Course.git`
 
     For Windows, you can install the
 [GitHub Desktop](https://desktop.github.com/)
@@ -78,14 +78,12 @@ and [Jupyter](http://jupyter.org/) as described in the notebook
 3. Executing the notebooks on [JuliaBox](https://juliabox.com/):
 
   * go to https://juliabox.com and sign in
-  * go to __Sync__
-  * paste the address `https://github.com/ivanslapnicar/Julia-Course` into
+  * go to __Git__
+  * paste the address `https://github.com/ivanslapnicar/Julia-Course.git` into
 __Git Clone URL__ box
   * check that the __Branch__ is set to _master_
-  * check that  __JuliaBox Folder__ is set to _Julia-Course_
   * press _+_ to add the repository
-  * press down arrow to synchronize the repository
-  * go to  __IJulia__
+  * close the __Git__ window
 
   The directory `Julia-Course` is now listed. The notebooks are
   located in the directory `src/`.
