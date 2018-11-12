@@ -73,7 +73,7 @@ and use it to clone the repository.
   The notebooks are now located in the directory `Julia-Course/src/` and
 can be used interactively  - you need to install [Julia](http://julialang.org/)
 and [Jupyter](http://jupyter.org/) as described in the notebook
-[Installing and Running Julia](00%20Installing%20and%20Running%20Julia.ipynb).
+[Installing and Running Julia](src/00%20Installing%20and%20Running%20Julia.ipynb).
 
 3. Executing the notebooks on [JuliaBox](https://juliabox.com/):
 
