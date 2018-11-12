@@ -2,7 +2,7 @@
 
 [Browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
 
-The notebooks have been updated to use the current Julia kernel Version 0.6.2.
+The notebooks are using either the current Julia kernel Version 1.0.1 or the previous version 0.6.2.
 
 ---
 
@@ -34,7 +34,7 @@ read the [Manifest](src/Manifest.md).
 * many plotting environments
 * interfaces to other languages
 * interfaces to software packages (like [LAPACK](http://www.netlib.org/lapack))
-* can be used without installing it at [JuliaBox](http://juliabox.org)
+* can be used without installing it at [JuliaBox](http://juliabox.com)
 * [Jupyter](http://jupyter.org) notebooks
 * symbolic computation with [sympy](http://sympy.org/en/index.html)
 * interactivity with [@manipulate](https://github.com/JuliaLang/Interact.jl)
@@ -64,7 +64,7 @@ The notebooks can be used in three ways:
 
 2. Cloning the notebooks to your computer with the command (in Linux)
 
-    `git clone git@github.com:ivanslapnicar/Julia-Course.git`
+    `git clone https://github.com/ivanslapnicar/Julia-Course.git`
 
     For Windows, you can install the
 [GitHub Desktop](https://desktop.github.com/)
@@ -73,7 +73,7 @@ and use it to clone the repository.
   The notebooks are now located in the directory `Julia-Course/src/` and
 can be used interactively  - you need to install [Julia](http://julialang.org/)
 and [Jupyter](http://jupyter.org/) as described in the notebook
-[Installing and Running Julia](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/).
+[Installing and Running Julia](00%20Installing%20and%20Running%20Julia.ipynb).
 
 3. Executing the notebooks on [JuliaBox](https://juliabox.com/):
 
@@ -81,7 +81,6 @@ and [Jupyter](http://jupyter.org/) as described in the notebook
   * go to __Git__
   * paste the address `https://github.com/ivanslapnicar/Julia-Course.git` into
 __Git Clone URL__ box
-  * check that the __Branch__ is set to _master_
   * press _+_ to add the repository
   * close the __Git__ window
 
@@ -90,5 +89,5 @@ __Git Clone URL__ box
 
 ### Credits
 
-The course is based upon work of many, particular credits are given along the way. The course was started during author's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/).
-This version was developed for [GIAN](http://www.gian.iitkgp.ac.in/) course [_Modern Applications of Numerical Linear Algebra Methods_](https://github.com/ivanslapnicar/GIAN-NLA-Course). The material is used in Tutorials at the SoftCOM conferences [2015](http://marjan.fesb.hr/SoftCOM/2015/), [2016](http://marjan.fesb.hr/SoftCOM/2016/) and [2017](http://softcom2017.fesb.unist.hr/).
+The course is based upon work of many, particular credits are given along the way. The development started during author's visit to Julia Group at [MIT](http://www.mit./edu) under the [Fulbright-Schuman International Educator Grant](http://www.fulbrightschuman.eu/) in 2014.
+This version was developed for several courses and tutorials held from 2015 until now.
