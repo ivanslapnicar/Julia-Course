@@ -4,9 +4,9 @@
 
 The notebooks are using either the current Julia kernel Version 1.0.1 or the previous version 0.6.2.
 
----
 
-__Welcome to the 21st+  century computation!__
+
+_Welcome to the 21st+  century computation!_
 
 To understand why to learn and use __Julia__, and to get an idea what is
 it all about, read the section
@@ -78,11 +78,11 @@ and [Jupyter](http://jupyter.org/) as described in the notebook
 3. Executing the notebooks on [JuliaBox](https://juliabox.com/):
 
   * go to https://juliabox.com and sign in
-  * go to __Git__
+  * go to _Git_
   * paste the address `https://github.com/ivanslapnicar/Julia-Course.git` into
-__Git Clone URL__ box
+_Git Clone URL_ box
   * press _+_ to add the repository
-  * close the __Git__ window
+  * close the _Git_ window
 
   The directory `Julia-Course` is now listed. The notebooks are
   located in the directory `src/`.
