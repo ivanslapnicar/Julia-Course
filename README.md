@@ -1,6 +1,6 @@
 # Julia-Course
 
-[Browse the notebooks](http://nbviewer.jupyter.org/url/github.com/ivanslapnicar/Julia-Course/tree/master/src/)
+[Browse the notebooks](https://ivanslapnicar.github.io/Julia-Course/)
 
 The notebooks are using either the current Julia kernel Version 1.0.1 or the previous version 0.6.2.
 
