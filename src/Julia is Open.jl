@@ -178,6 +178,9 @@ This output seems confusing, but from the second line we conclude that we can de
 # ╔═╡ 4163dd6e-7b5c-42f4-a9f4-c1e1a7faecba
 T₁ = Tridiagonal(rand(6),rand(7),rand(6))
 
+# ╔═╡ f58a6d4f-1546-41d7-baa6-455dda4073d2
+T₁.d
+
 # ╔═╡ 89bf9619-7ee7-4ccd-99c0-48583e93bbe1
 Matrix(T₁)
 
@@ -487,7 +490,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 # ╟─4440847c-db90-44a5-be48-08c5794ee5b7
 # ╠═7a55f84e-1439-45ec-b428-5976cac084cd
 # ╟─7514d88c-d0fa-45e5-947d-10fe0ce47f7d
-# ╠═611770e1-4b5b-47a6-be3a-e0806990796d
+# ╟─611770e1-4b5b-47a6-be3a-e0806990796d
 # ╠═9c208420-7cdf-11eb-2b99-e32e66b46e85
 # ╠═bfb87460-7cdf-11eb-38ca-0961560c093b
 # ╟─cb3e314e-68e0-4fc0-8ece-c5c8bc279f55
@@ -505,6 +508,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 # ╠═8591bb73-12e5-474e-b24b-7acfab2e3c5f
 # ╟─8c0b2316-26fa-4748-b047-3d2c6bf7acc0
 # ╠═4163dd6e-7b5c-42f4-a9f4-c1e1a7faecba
+# ╠═f58a6d4f-1546-41d7-baa6-455dda4073d2
 # ╠═89bf9619-7ee7-4ccd-99c0-48583e93bbe1
 # ╠═684b3f4a-f83b-440d-9b13-d5dae159e77a
 # ╠═243854d4-495a-43de-88cb-1442275c8a8a

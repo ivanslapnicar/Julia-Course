@@ -104,6 +104,9 @@ md"""
 * `#` is for comments
 """
 
+# ╔═╡ 4064fe61-f863-4cec-8cd7-a7de87e95085
+🔛₂³ᵧ=2
+
 # ╔═╡ 2b973dd0-1e52-44c9-bf22-be092080fa3e
 md"""
 # Basic indexing
@@ -145,7 +148,7 @@ x₀=1:10
 [ x₀[i]+x₀[i+1] for i=1:9 ]
 
 # ╔═╡ 963ea673-6469-4718-b348-a281578c7742
-z = [Matrix{Int64}(I,n,n) for n=1:5]  # z is Array of Arrays
+z = [Matrix{Int16}(I,n,n) for n=1:5]  # z is Array of Arrays
 
 # ╔═╡ ae3fb606-c31d-4edd-9d4c-4c3982c86be4
 # First element is a 1x1 Array
@@ -507,7 +510,7 @@ md"""
 
 # ╔═╡ 37e4a4d1-99a7-49ff-8daf-6b204aa4a3b5
 # Simple version
-ccall(:clock,Int,()) 
+ccall(:clock,Int,())
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -610,6 +613,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 # ╟─b46be41b-edc5-4321-850c-ecb82e13ac7a
 # ╠═dbc23df0-c4f0-4efc-a452-3392e0a18bf1
 # ╟─9779cbcd-d500-4383-a7e3-ff909837aaa6
+# ╠═4064fe61-f863-4cec-8cd7-a7de87e95085
 # ╟─2b973dd0-1e52-44c9-bf22-be092080fa3e
 # ╠═334ea76b-a126-41b0-8945-ba166507b0a1
 # ╠═9ee1a335-8060-4c6c-b1c6-4e1699053086
@@ -626,7 +630,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 # ╠═e4790db9-99ee-4200-bc30-d80d0494f23f
 # ╠═9efef8f4-130b-4286-b109-a43e47a1d00b
 # ╠═b80eb1ee-0d74-47fe-8fbf-87140fad8e7c
-# ╠═de3245f1-8b93-4e9e-be8c-76f7f096907f
+# ╟─de3245f1-8b93-4e9e-be8c-76f7f096907f
 # ╠═6cc8eb48-4dbb-4599-b126-b4b89f8376de
 # ╠═cdff612c-ad32-4fc8-aa11-d4501f490f05
 # ╠═4725ae25-0800-442e-88b5-19243da2a3e9
