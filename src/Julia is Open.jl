@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.16.1
+# v0.16.4
 
 using Markdown
 using InteractiveUtils
@@ -74,7 +74,7 @@ Consider operators `+`, `*` and `⋅`, the first two of them seem rather basic i
 
 # ╔═╡ 7514d88c-d0fa-45e5-947d-10fe0ce47f7d
 md"""
-# methods()
+# Multiple dispatch - methods()
 
 `Julia` functions have a feature called _multiple dispatch_, which means that the method depends on the name __AND__ the input.
 Full range of existing methods for certain function name is given by the `methods()` command. 
