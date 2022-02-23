@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.16.1
+# v0.17.5
 
 using Markdown
 using InteractiveUtils
@@ -67,7 +67,7 @@ In Linux, packges are installed in the directory `$HOME/.julia/packages/`.
 In Windows 10, you will have Julia icon which starts Julia command window.
 Julia is installed in the directory (`AppData` is a hidden directory):
 ```
-\Users\your_user_name\AppData\Local\Programs\Julia-1.6.2
+\Users\your_user_name\AppData\Local\Programs\Julia-1.7.1
 ```
 The packages are installed in the directory `\Users\your_user_name\.julia\packages`
 In Julia, current path and directory listing are obtained by Julia commands
@@ -80,9 +80,22 @@ Prior to executing `notebook()` command, you can use shell commands in `Julia` p
 
 """
 
-# ╔═╡ ab1a0cfc-0a8b-4137-a73c-9dd7bb4296fd
+# ╔═╡ 00000000-0000-0000-0000-000000000001
+PLUTO_PROJECT_TOML_CONTENTS = """
+[deps]
+"""
 
+# ╔═╡ 00000000-0000-0000-0000-000000000002
+PLUTO_MANIFEST_TOML_CONTENTS = """
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.7.1"
+manifest_format = "2.0"
+
+[deps]
+"""
 
 # ╔═╡ Cell order:
 # ╟─2d08dd15-3ecb-4e0e-9a00-54359ec84f93
-# ╠═ab1a0cfc-0a8b-4137-a73c-9dd7bb4296fd
+# ╟─00000000-0000-0000-0000-000000000001
+# ╟─00000000-0000-0000-0000-000000000002
