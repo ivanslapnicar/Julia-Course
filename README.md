@@ -2,7 +2,7 @@
 
 [Browse the course](https://ivanslapnicar.github.io/Julia-Course/)
 
-The course consists of [Pluto](https://github.com/fonsp/Pluto.jl) notebooks and is using current Julia kernel Version 1.6.2.
+The course consists of [Pluto](https://github.com/fonsp/Pluto.jl) notebooks.
 
 _Welcome to the 21st+  century computation!_
 
@@ -35,6 +35,7 @@ Recommended resurces for learning Julia can be found at the
 * interactivity with `@bind` from [PlutoUI](https://github.com/fonsp/PlutoUI.jl)
 * web accesss
 * handling big data with ([HDF5](http://www.hdfgroup.org/HDF5/))
+* easy to use multithreading
 * great to use in teaching and research
 
 ## What Will You Learn
