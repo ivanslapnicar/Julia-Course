@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.17.5
+# v0.19.2
 
 using Markdown
 using InteractiveUtils
@@ -498,11 +498,11 @@ Notice, that this is not a gret help, Julia has much better commands for this.
 
 # ╔═╡ 6f06c3c6-53e2-4374-aeaa-fbcad7db7204
 # This calls the unix Calendar program
-# run(`cal`)
+run(`cal`)
 
 # ╔═╡ fe3af7f1-bde9-4a27-99b6-665386b38af9
 # The pipe is '|>' instead of usual '|'
-# run(pipeline(`cal`,`grep Sa`)) 
+run(pipeline(`cal`,`grep Sa`)) 
 
 # ╔═╡ 081ccb66-0b04-41b1-bae5-9d3e1f9b5c69
 md"""

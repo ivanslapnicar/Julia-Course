@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.17.5
+# v0.19.2
 
 using Markdown
 using InteractiveUtils
@@ -168,7 +168,7 @@ Let us see how exactly is the type `Tridiagonal` defined:
 """
 
 # ╔═╡ 8591bb73-12e5-474e-b24b-7acfab2e3c5f
-# methods(Tridiagonal)
+methods(Tridiagonal)
 
 # ╔═╡ 8c0b2316-26fa-4748-b047-3d2c6bf7acc0
 md"""
