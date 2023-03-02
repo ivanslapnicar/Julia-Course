@@ -142,16 +142,16 @@ Therefore, the 135-th day from today is:
 """
 
 # ╔═╡ 259f8ede-1634-4423-a1cb-b17a425c4b86
-varinfo(Dates)
+# varinfo(Dates)
 
 # ╔═╡ 48783355-31c8-4159-8dd5-8bea047c742c
-@which Dates.today()+Dates.Day(135)
+dd=Dates.today()+Dates.Day(135)
 
 # ╔═╡ c9a0df42-1368-4e5d-a21d-d924f7ffbb75
 typeof(dd)
 
 # ╔═╡ 8ee49410-053e-4378-95f5-8880d5c341d4
-
+@which Dates.today()+Dates.Day(135)
 
 # ╔═╡ 79ca20e7-446e-4264-ae24-c46fbb4b15c1
 md"""
@@ -186,9 +186,6 @@ T₁ = Tridiagonal(rand(6),rand(7),rand(6))
 
 # ╔═╡ 291d7286-21ce-41e2-83eb-de75035d0792
 @which Tridiagonal(rand(6),rand(7),rand(6))
-
-# ╔═╡ aa81af00-d95a-4274-8470-01e4d9ea8e3f
-T₁.
 
 # ╔═╡ f58a6d4f-1546-41d7-baa6-455dda4073d2
 T₁.d
@@ -302,7 +299,7 @@ This is the reverse of `methods()` - which methods exist for the given type. For
 """
 
 # ╔═╡ e54408ea-e984-42b8-926e-74806ffb5aec
-methodswith(Tridiagonal)
+# methodswith(Tridiagonal)
 
 # ╔═╡ 017d94a3-c9cb-481f-b3ec-0dc687cb8a46
 # methodswith(Dates.Day)
@@ -346,7 +343,7 @@ md"""
 """
 
 # ╔═╡ 391b705d-0b2d-42b9-86a6-94416d2135cf
-methods(⋅)
+# methods(⋅)
 
 # ╔═╡ 0b1557b6-2142-49db-8180-d7d17e1128cf
 md"""
@@ -554,7 +551,6 @@ version = "5.1.1+0"
 # ╟─8c0b2316-26fa-4748-b047-3d2c6bf7acc0
 # ╠═4163dd6e-7b5c-42f4-a9f4-c1e1a7faecba
 # ╠═291d7286-21ce-41e2-83eb-de75035d0792
-# ╠═aa81af00-d95a-4274-8470-01e4d9ea8e3f
 # ╠═f58a6d4f-1546-41d7-baa6-455dda4073d2
 # ╠═89bf9619-7ee7-4ccd-99c0-48583e93bbe1
 # ╠═684b3f4a-f83b-440d-9b13-d5dae159e77a
