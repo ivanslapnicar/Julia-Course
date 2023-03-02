@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.2
+# v0.19.22
 
 using Markdown
 using InteractiveUtils
@@ -106,7 +106,19 @@ md"""
 """
 
 # ╔═╡ 4064fe61-f863-4cec-8cd7-a7de87e95085
-📚³ᵧ=2
+📚³ᵧ=3
+
+# ╔═╡ 81d549e8-f105-4018-9787-974d54a9a4a4
+📚³ᵧ^3
+
+# ╔═╡ df2b1bd6-1ed6-428b-be69-ce037db5c9be
+α₁=6
+
+# ╔═╡ 369ce31c-2804-4ec1-863e-f16dbd21dd6a
+šč=9
+
+# ╔═╡ 1c6d5375-f4ce-45a8-af7a-e70345cfcf17
+√šč
 
 # ╔═╡ 2b973dd0-1e52-44c9-bf22-be092080fa3e
 md"""
@@ -273,6 +285,12 @@ A*v
 # Usual matrix multiplication formula does not work. Why?
 B₁=[A[i,:]*A[:,j] for i=1:5, j=1:5]
 
+# ╔═╡ 5b415d33-7c7c-4442-97f1-d41eb535cf80
+A[:,1]
+
+# ╔═╡ 6a2afc04-7efd-4857-bc5a-86b1aa114894
+A[1,:]
+
 # ╔═╡ f4ba5280-7cd2-11eb-1cb5-e3bf3534f077
 A
 
@@ -317,6 +335,15 @@ zeros(Int,3,3)+I
 # ╔═╡ ae870870-7c38-11eb-1b1f-475e0119efa2
 # Multiplicative identity
 one(rand(3,3))
+
+# ╔═╡ 711d8e7d-9901-4767-b7f9-39b0147593c5
+A₁=rand(Float64,5,5)
+
+# ╔═╡ 5fdc3404-f133-4c87-96d9-a1300718e669
+one(A₁)
+
+# ╔═╡ a329a453-ae82-4760-a77b-d51b1c237770
+A₁+I
 
 # ╔═╡ 1a6706f5-d464-4b4d-856a-c969aadd44e1
 md"""
@@ -404,6 +431,9 @@ Julia uses full UNICODE set as variable names.
 
 # ╔═╡ 312bff26-67c8-4b5c-b61f-b8d66ece718a
 Ξ = 8; Ψ  = 6; Γ = Ξ ⋅ Ψ; 🐮=√2
+
+# ╔═╡ ec2f49a0-3530-4bab-97a3-499392ff5ab9
+Ξ
 
 # ╔═╡ f0c39851-7ac9-4959-a48e-2612211de173
 typeof(Γ)
@@ -536,6 +566,7 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 [[CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version = "1.0.1+0"
 
 [[Dates]]
 deps = ["Printf"]
@@ -576,6 +607,7 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 [[OpenBLAS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "4536629a-c528-5b80-bd46-f80d51c5b363"
+version = "0.3.20+0"
 
 [[Parsers]]
 deps = ["Dates"]
@@ -604,6 +636,7 @@ version = "1.2.2"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+version = "0.7.0"
 
 [[Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -619,6 +652,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 [[libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl", "OpenBLAS_jll"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
+version = "5.1.1+0"
 """
 
 # ╔═╡ Cell order:
@@ -633,6 +667,10 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═dbc23df0-c4f0-4efc-a452-3392e0a18bf1
 # ╟─9779cbcd-d500-4383-a7e3-ff909837aaa6
 # ╠═4064fe61-f863-4cec-8cd7-a7de87e95085
+# ╠═81d549e8-f105-4018-9787-974d54a9a4a4
+# ╠═df2b1bd6-1ed6-428b-be69-ce037db5c9be
+# ╠═369ce31c-2804-4ec1-863e-f16dbd21dd6a
+# ╠═1c6d5375-f4ce-45a8-af7a-e70345cfcf17
 # ╟─2b973dd0-1e52-44c9-bf22-be092080fa3e
 # ╠═334ea76b-a126-41b0-8945-ba166507b0a1
 # ╠═9ee1a335-8060-4c6c-b1c6-4e1699053086
@@ -676,6 +714,8 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═19c4f76b-a9f2-4c78-b0a3-0f2bf3109b6f
 # ╠═d31925e5-5c02-4386-8181-d308b3f937f4
 # ╠═c919d9d4-079e-490a-b858-762bac13c648
+# ╠═5b415d33-7c7c-4442-97f1-d41eb535cf80
+# ╠═6a2afc04-7efd-4857-bc5a-86b1aa114894
 # ╠═f4ba5280-7cd2-11eb-1cb5-e3bf3534f077
 # ╠═b5263af0-bd84-4086-9481-eaf9e8b6d402
 # ╠═19abf655-4f37-44aa-9557-e776fb9e5392
@@ -688,6 +728,9 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═f3253ec4-3aaa-4b51-bded-4c37b17e6208
 # ╠═a3ee2c40-7c38-11eb-0c7a-359758b3af8c
 # ╠═ae870870-7c38-11eb-1b1f-475e0119efa2
+# ╠═711d8e7d-9901-4767-b7f9-39b0147593c5
+# ╠═5fdc3404-f133-4c87-96d9-a1300718e669
+# ╠═a329a453-ae82-4760-a77b-d51b1c237770
 # ╟─1a6706f5-d464-4b4d-856a-c969aadd44e1
 # ╠═72faab81-f1ce-4d66-9b4d-348abaecd87d
 # ╠═8a6ddee3-9f38-4074-83cf-64e919d2ba2e
@@ -706,6 +749,7 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═3a1e5e6a-6235-498c-a3e4-c19e4536d63d
 # ╠═1a842df8-274a-4ed9-afa7-c1c7430f9283
 # ╟─28455bbd-5bfc-4f98-be4f-c26311f7e327
+# ╠═ec2f49a0-3530-4bab-97a3-499392ff5ab9
 # ╠═312bff26-67c8-4b5c-b61f-b8d66ece718a
 # ╠═f0c39851-7ac9-4959-a48e-2612211de173
 # ╠═a1b56d48-45c2-4483-81bb-f5829ff10e7e

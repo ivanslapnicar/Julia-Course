@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.2
+# v0.19.22
 
 using Markdown
 using InteractiveUtils
@@ -141,11 +141,17 @@ We see that one of the `+` methods is adding days to time:
 Therefore, the 135-th day from today is:
 """
 
+# ╔═╡ 259f8ede-1634-4423-a1cb-b17a425c4b86
+varinfo(Dates)
+
 # ╔═╡ 48783355-31c8-4159-8dd5-8bea047c742c
-dd=Dates.today()+Dates.Day(135)
+@which Dates.today()+Dates.Day(135)
 
 # ╔═╡ c9a0df42-1368-4e5d-a21d-d924f7ffbb75
 typeof(dd)
+
+# ╔═╡ 8ee49410-053e-4378-95f5-8880d5c341d4
+
 
 # ╔═╡ 79ca20e7-446e-4264-ae24-c46fbb4b15c1
 md"""
@@ -177,6 +183,12 @@ This output seems confusing, but from the second line we conclude that we can de
 
 # ╔═╡ 4163dd6e-7b5c-42f4-a9f4-c1e1a7faecba
 T₁ = Tridiagonal(rand(6),rand(7),rand(6))
+
+# ╔═╡ 291d7286-21ce-41e2-83eb-de75035d0792
+@which Tridiagonal(rand(6),rand(7),rand(6))
+
+# ╔═╡ aa81af00-d95a-4274-8470-01e4d9ea8e3f
+T₁.
 
 # ╔═╡ f58a6d4f-1546-41d7-baa6-455dda4073d2
 T₁.d
@@ -290,7 +302,7 @@ This is the reverse of `methods()` - which methods exist for the given type. For
 """
 
 # ╔═╡ e54408ea-e984-42b8-926e-74806ffb5aec
-# methodswith(Tridiagonal)
+methodswith(Tridiagonal)
 
 # ╔═╡ 017d94a3-c9cb-481f-b3ec-0dc687cb8a46
 # methodswith(Dates.Day)
@@ -319,13 +331,22 @@ T₁*T₂
 # ╔═╡ a04fc04a-c446-4528-abfd-91be7edf0944
 T₁*T₂*T₁
 
+# ╔═╡ c1514eca-f600-4914-ba7c-ccf1d30ebd73
+T₁
+
+# ╔═╡ 571bf64a-41be-4d7a-8259-27c11946393e
+x₁=rand(7)
+
+# ╔═╡ 628aad74-15af-4556-a30d-1b5615c4a102
+@which T₁*x₁
+
 # ╔═╡ 8b29ea27-05ef-4b5e-8123-80667c385b70
 md"""
 ## The ⋅ operator
 """
 
 # ╔═╡ 391b705d-0b2d-42b9-86a6-94416d2135cf
-# methods(⋅)
+methods(⋅)
 
 # ╔═╡ 0b1557b6-2142-49db-8180-d7d17e1128cf
 md"""
@@ -416,6 +437,7 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 [[CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version = "1.0.1+0"
 
 [[Dates]]
 deps = ["Printf"]
@@ -456,6 +478,7 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 [[OpenBLAS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "4536629a-c528-5b80-bd46-f80d51c5b363"
+version = "0.3.20+0"
 
 [[Parsers]]
 deps = ["Dates"]
@@ -484,6 +507,7 @@ version = "1.2.2"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+version = "0.7.0"
 
 [[Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -499,6 +523,7 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 [[libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl", "OpenBLAS_jll"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
+version = "5.1.1+0"
 """
 
 # ╔═╡ Cell order:
@@ -518,14 +543,18 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═4f6d3190-45c9-433d-b7f9-c42ed01dc04b
 # ╠═60a3f371-d9b2-47a8-be8f-fab7cfb3fb48
 # ╟─74d98ae5-0641-4eea-9f8c-8e663a405f32
+# ╠═259f8ede-1634-4423-a1cb-b17a425c4b86
 # ╠═55f8789f-5361-421f-9f37-98c154fd40cf
 # ╠═48783355-31c8-4159-8dd5-8bea047c742c
 # ╠═c9a0df42-1368-4e5d-a21d-d924f7ffbb75
+# ╠═8ee49410-053e-4378-95f5-8880d5c341d4
 # ╟─79ca20e7-446e-4264-ae24-c46fbb4b15c1
 # ╟─7e6013ea-1e66-4a81-86a8-a69e22cde29a
 # ╠═8591bb73-12e5-474e-b24b-7acfab2e3c5f
 # ╟─8c0b2316-26fa-4748-b047-3d2c6bf7acc0
 # ╠═4163dd6e-7b5c-42f4-a9f4-c1e1a7faecba
+# ╠═291d7286-21ce-41e2-83eb-de75035d0792
+# ╠═aa81af00-d95a-4274-8470-01e4d9ea8e3f
 # ╠═f58a6d4f-1546-41d7-baa6-455dda4073d2
 # ╠═89bf9619-7ee7-4ccd-99c0-48583e93bbe1
 # ╠═684b3f4a-f83b-440d-9b13-d5dae159e77a
@@ -556,6 +585,9 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═e1471fce-4bf3-43d7-8cfc-19e5d4f5b8ec
 # ╠═3c8ae987-8cb5-43b4-bda8-bf528e3675af
 # ╠═a04fc04a-c446-4528-abfd-91be7edf0944
+# ╠═c1514eca-f600-4914-ba7c-ccf1d30ebd73
+# ╠═571bf64a-41be-4d7a-8259-27c11946393e
+# ╠═628aad74-15af-4556-a30d-1b5615c4a102
 # ╟─8b29ea27-05ef-4b5e-8123-80667c385b70
 # ╠═391b705d-0b2d-42b9-86a6-94416d2135cf
 # ╟─0b1557b6-2142-49db-8180-d7d17e1128cf
